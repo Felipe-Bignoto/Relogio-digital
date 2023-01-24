@@ -46,3 +46,51 @@ body{
 .relogio span.tempo{
     font-size: 15px;
 }
+
+@media(max-width: 800px){
+
+    .body{
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+
+    .relogio{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        height: 75%;
+        width: 90%;
+        background: transparent;
+        box-shadow: 5px 5px 15px rgba(0, 0, 0, 0);
+        
+    }
+    
+    .relogio div{
+        height: 25%;
+        width: 25%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        color: rgb(255, 255, 255);
+        background: rgba(5, 5, 5, 0.9);
+        box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.7);
+        border-radius: 7px;
+        letter-spacing: 1px;
+    
+    }
+    
+    .relogio span{
+        font-weight: bolder;
+        font-size: 20px;
+    }
+    
+    .relogio span.tempo{
+        font-size: 10px;
+    }
+
+}
