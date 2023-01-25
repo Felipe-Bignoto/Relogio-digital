@@ -68,10 +68,10 @@ body{
         display: grid;
         flex-direction: row;
         align-items: center;
-        grid-template-rows: 1f0 1fr 1frr;
+        grid-template-rows: 1fr 1fr 1frr;
         justify-content: space-around;
-        height: 90%;
-        width: 90%;
+        height: 100%;
+        width: 100%;
         background: transparent;
         box-shadow: 5px 5px 15px rgba(0, 0, 0, 0);
         
